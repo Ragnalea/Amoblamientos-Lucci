@@ -1,0 +1,326 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+.form {
+    width: 100%;
+}
+
+.busqueda {
+    height: 35px;
+    display: flex;
+    align-self: center;
+}
+
+.navbar {
+    font-weight: bold;
+}
+
+.menuhamb {
+    display: flex;
+    justify-content: center;
+}
+
+.hamburguesa {
+    display: flex;
+    justify-content: end !important;
+}
+
+
+header {
+    background-color: rgba(210, 180, 140, 0.645);
+}
+
+.imglogo {
+    height: 125px;
+    padding: 0%;
+    margin: 0%;
+}
+
+nav ul li {
+    font-size: 40px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 9px;
+    margin: 5px;
+    margin-top: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+/* main */
+main {
+    background-color: burlywood;
+}
+
+.minititulo {
+    font-size: 40px;
+    color: rgb(80, 40, 11);
+    padding: 6px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(80, 40, 11);
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.titcolor {
+    font-size: 75px;
+    color: rgb(80, 40, 11);
+    padding: 30px;
+    text-decoration-line: underline;
+    font-style: italic;
+}
+
+.redessociales {
+    list-style: none;
+}
+
+/* Formulario para registrarse*/
+.estructuraform,
+.estructuraform2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+}
+
+.textbox {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 300px;
+}
+
+.detallespro {
+    font-size: 25px;
+    justify-content: initial;
+}
+
+/* posicion de la iamgen */
+.detpro {
+    justify-content: end;
+}
+
+/* lista de detalles del producto */
+
+.botoncomp {
+    font-size: 30px;
+}
+
+.botonreg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkgray;
+}
+
+.redes {
+    list-style: none;
+}
+
+/* footer */
+footer {
+    background-color: rgba(210, 180, 140, 0.645);
+}
+
+img {
+    padding: 40px;
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.footimg {
+    height: 75px;
+}
+
+.footimg {
+    width: 200px;
+}
+
+img {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.carousel-item {
+    width: 30%;
+}
+
+nav ul li {
+    font-size: 25px;
+    margin-top: 6px;
+}
+
+.table {
+    width: 30%;
+}
+
+.redessociales {
+    width: 40%;
+}
+
+
+/* Formulario para registrarse*/
+.estructuraform,
+.estructuraform2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 10px;
+    width: 10%;
+}
+
+.textbox {
+    margin-bottom: 15px;
+    height: 40px;
+    width: 330px;
+}
+
+.botonreg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: darkgray;
+}
+
+.redes {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+/* Modo MOBILE */
+@media only screen and (max-width: 768px) {
+    .fixedt {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .menuhamb {
+        background-color: rosybrown;
+        opacity: 100%;
+
+    }
+
+    .busqueda {
+        margin-bottom: 10px;
+    }
+
+    .imgindex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imglogo {
+        height: 90px;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    .titcolor {
+        font-size: 35px;
+        padding: 5px;
+    }
+
+
+    img {
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .redessociales {
+        margin-bottom: 10px;
+        padding-bottom: 3px;
+    }
+
+    /* Formulario para registrarse*/
+    .estructuraform,
+    .estructuraform2 {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        padding: 10px;
+        display: flex;
+        width: 10%;
+    }
+
+    .textbox {
+        margin-bottom: 15px;
+        height: 40px;
+        width: 330px;
+    }
+
+    .botonreg {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: darkgray;
+    }
+
+    .redes {
+        list-style: none;
+    }
+
+    .redessociales {
+        width: 30%;
+        margin-bottom: 10px;
+        padding-bottom: 3px;
+    }
+
+    /* Formulario para registrarse*/
+    .estructuraform,
+    .estructuraform2 {
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color: black;
+        padding: 10px;
+        width: 10%;
+    }
+
+    .textbox {
+        margin-bottom: 15px;
+        height: 40px;
+        width: 330px;
+    }
+
+    .botonreg {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: darkgray;
+    }
+
+    .redes {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .detpro {
+        justify-content: center;
+    }
+
+}
